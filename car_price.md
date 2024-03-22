@@ -107,8 +107,8 @@ x = new_df['enginesize']
 y = new_df['price']
 ```
 ### Comparing Engine Size and Fuel Type with Price using Scatter Plot
-<img src="picture/2.1.png" width="500" alt="">
-<img src="picture/2.2.png" width="500" alt="">
+<img src="pic/2.1.png" width="500" alt="">
+<img src="pic/2.2.png" width="500" alt="">
 
 ### Splitting Data:
 Splits the data into training and testing sets.
@@ -133,12 +133,12 @@ Visualizes the relationship between actual and predicted prices.
 Plotting Regression Model Line:
 Plots the regression line to visualize the model's fit.
 
-<img src="picture/2.3.png" width="500" alt="">
+<img src="pic/2.3.png" width="500" alt="">
 
 Predicting Prices based on Engine Size:
 Generates predicted prices based on engine size.
 
-<img src="picture/2.4.png" width="500" alt="">
+<img src="pic/2.4.png" width="500" alt="">
 
 ### Predicting Prices based on Engine Size:
 Generates predicted prices based on engine size.
