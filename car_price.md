@@ -1,12 +1,12 @@
 # Car Price Prediction Analysis
 
-## 1. Objective
+##  Objective
 The goal of this project is to develop a model capable of predicting car prices using various car attributes. Through examining the relationship between car features and their prices, our aim is to construct a linear regression model that accurately estimates car prices, serving as a valuable resource for both buyers and sellers in the automotive market.
 
-## 2. Overview
-The ability to predict car prices accurately is crucial for various market participants, including dealerships, manufacturers, and consumers. This project leverages a dataset with detailed car attributes to construct a model that elucidates the factors affecting car prices.
+## Overview
+Predicting car prices is a complex task that involves understanding the intricate relationships between various car attributes and how they collectively influence the final price. This analysis uses machine learning to model these relationships, providing valuable insights for manufacturers, buyers, and enthusiasts alike.
 
-## 3. Dataset Insights
+##  Dataset Insights
 The dataset encompasses diverse information about cars, detailed as follows:
 
 | Attribute          | Description                                                                |
@@ -32,31 +32,9 @@ The dataset encompasses diverse information about cars, detailed as follows:
 | Highway MPG        | Estimated highway driving fuel efficiency.                                 |
 | Price              | Car price.                                                                 |
 
-## 4. Methodology
-The process involves several key steps, from data preparation through to model evaluation:
 
-### Data Loading and Inspection
-- Load the dataset and inspect its structure, examining both features and the target variable.
-  
-### Data Preprocessing
-- Address missing values, encode categorical variables, and scale features as necessary.
 
-### Exploratory Data Analysis (EDA)
-- Investigate the dataset to find correlations between features and the target variable, and visualize these relationships.
-
-### Feature Selection
-- Identify and select the features that significantly correlate with the target variable, price, for inclusion in the model.
-
-### Model Training
-- Split the dataset into training and test sets and train a linear regression model using the selected features.
-
-### Model Evaluation
-- Utilize metrics like MSE, MAE, R2, and RMSE to evaluate the model's accuracy and performance.
-
-### Visualization
-- Create visualizations to compare actual vs. predicted prices and to illustrate the regression model's effectiveness.
-
-## 5. Detailed Model Training Procedure
+## Detailed Model Training Procedure
 
 ### Importing Libraries
 ```python
