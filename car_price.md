@@ -7,6 +7,10 @@ The goal of this project is to develop a model capable of predicting car prices 
 Predicting car prices is a complex task that involves understanding the intricate relationships between various car attributes and how they collectively influence the final price. This analysis uses machine learning to model these relationships, providing valuable insights for manufacturers, buyers, and enthusiasts alike.
 
 ##  Dataset Insights
+
+The dataset contains numerous features related to car specifications such as engine size, fuel type, body style, and more. Each entry represents a car, with the target variable being its price. Initial explorations aim to understand the data's structure, missing values, and statistical properties.
+
+## Data Preparation and Exploration
 The dataset encompasses diverse information about cars, detailed as follows:
 
 | Attribute          | Description                                                                |
