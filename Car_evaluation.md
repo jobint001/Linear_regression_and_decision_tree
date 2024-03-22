@@ -25,7 +25,7 @@ The impact of varying the tree depth was analyzed to understand its effect on mo
 
 Similarly, adjusting the minimum number of samples required to split an internal node (`min_samples_split`) was explored. This parameter helps control overfitting by requiring a minimum number of samples in a node before considering it for a split.
 
-- **Place for Image: Performance Impact of Min Samples Split**
+![Alternative text](pic/img2.png)
 
 ## Insights and Conclusions
 
