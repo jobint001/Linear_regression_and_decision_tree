@@ -1,4 +1,3 @@
-![image](https://github.com/jobint001/Linear_regression_and_decision_tree/assets/92356462/91499376-b801-459e-8b5b-2c786f7b9a8b)# Decision Tree Classifier Analysis on Car Evaluation Dataset
 
 ## Introduction
 
