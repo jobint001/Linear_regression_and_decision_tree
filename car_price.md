@@ -40,20 +40,7 @@ The dataset encompasses diverse information about cars, detailed as follows:
 
 ## Detailed Model Training Procedure
 
-### Importing Libraries
-```python
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
-```
-### Loading Data:
-Reads the data from a CSV file into a pandas DataFrame.
-```python
-df = pd.read_csv('car_dataset.csv')
+
 ```
 ### EDA:
 Inspects the data, summarizes statistics, explores unique values, and identifies columns.
@@ -77,7 +64,7 @@ Selects numerical columns for analysis.
 numerical_columns = ['wheelbase', 'enginesize', 'boreratio', 'stroke', 'compressionratio', 'horsepower', 'peakrpm', 'citympg']
 ```
 ### Correlation Analysis:
-Calculates correlation coefficients between numerical features and the target variable ('price').
+Correlation analysis between the independent variables and the target variable "Price" is performed to identify the features most likely to influence car prices.
 ```python
 # Calculate correlation coefficients with respect to "price"
 correlation_with_price = df[numerical_columns].corrwith(df['price']).abs().sort_values(ascending=False)
@@ -108,7 +95,8 @@ Fits the model to the training data.
 model.fit(x_train.values.reshape(-1,1), y_train)
 ```
 ### Evaluation metric - R2
-Calculates evaluation metric - R2 score.
+- **R² Score Interpretation**: An R² score of 0.7825 is considered relatively high in many contexts, suggesting that the model has a strong predictive capability with respect to car prices. However, there's still room for improvement, as part of the variance remains unexplained by the current model.
+
 ### Plotting Actual vs. Predicted Values:
 Visualizes the relationship between actual and predicted prices.
 
@@ -168,8 +156,9 @@ Generates predicted prices based on engine size.
 | 304         | 42338.53        |
 | 90          | 7175.02         |
 
-## 6. Insights and Model Efficacy
-The comprehensive analysis and deployment of a linear regression model have culminated in a predictive framework adept at forecasting car prices with engine size as the primary variable. Key takeaways from this endeavor include:
+##  Insights and Model Efficacy
+The analysis reveals key features that significantly influence car prices, providing a basis for strategic decisions regarding car design and marketing. The linear regression model, with its interpretability and simplicity, serves as a valuable tool for predicting car prices, though there is room for exploring more complex models for improved accuracy.
+
 
 **Critical Findings:**
 
@@ -180,13 +169,9 @@ The comprehensive analysis and deployment of a linear regression model have culm
 
 The diligent analytical and modeling processes have yielded a dependable framework for accurately forecasting car prices, with engine size identified as a crucial factor.
 
-## 7. Project Wrap-up
-This initiative has successfully forged a predictive model that emphasizes the pivotal role of engine size in determining car prices. This revelation underscores engine size as a crucial consideration for both purchasers and vendors in the automotive sector.
+## Future Work
 
-Looking ahead, there's potential for further refinement and enhancement of the model to elevate its accuracy and extend its relevance. Introducing more features and applying sophisticated modeling techniques could unravel additional layers of the intricate car pricing landscape.
-
-In essence, the developed predictive model stands as a strategic asset for the automotive industry's stakeholders, offering actionable insights to guide pricing strategies, support decision-making, and ultimately, amplify operational efficiency and market effectiveness.
-
+Future analyses could explore more sophisticated machine learning models such as ensemble methods or neural networks to enhance predictive performance. Additionally, further feature engineering and the inclusion of more granular data could uncover deeper insights into the factors affecting car prices.
 
 
 
