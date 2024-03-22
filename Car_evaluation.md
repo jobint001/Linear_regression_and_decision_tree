@@ -18,7 +18,7 @@ The dataset was split into training and testing sets to evaluate the decision tr
 
 The impact of varying the tree depth was analyzed to understand its effect on model accuracy. A deeper tree might capture more information but risks overfitting, where the model performs well on the training data but poorly on unseen data.
 
-![Alternative text](pic/imag1.png)
+![Alternative text](pic/img1.png)
 
 
 ### Adjusting Min Samples Split
