@@ -1,4 +1,4 @@
-# Decision Tree Classifier Analysis on Car Evaluation Dataset
+![image](https://github.com/jobint001/Linear_regression_and_decision_tree/assets/92356462/91499376-b801-459e-8b5b-2c786f7b9a8b)# Decision Tree Classifier Analysis on Car Evaluation Dataset
 
 ## Introduction
 
@@ -11,6 +11,11 @@ The car evaluation dataset comprises multiple features: 'buying', 'maint', 'door
 ## Model Training and Evaluation
 
 The dataset was split into training and testing sets to evaluate the decision tree classifier's performance. The decision tree was initially trained using the "entropy" criterion. The model's accuracy was assessed on both the training and testing sets to understand its performance and generalization capability.
+
+## Decision tree visualization
+
+![Alternative text](pic/img4.png)
+
 
 ## Tuning Tree Depth and Min Samples Split
 
